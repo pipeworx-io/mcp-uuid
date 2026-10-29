@@ -1,0 +1,31 @@
+[
+  {
+    "name": "validate_uuid",
+    "description": "Validate and parse a UUID (keyless, offline): checks the format and returns the version (1-8), variant, whether it is nil/max, and — for time-based versions (v1, v7) — the embedded timestamp as an ISO date.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "uuid": {
+          "type": "string",
+          "description": "A UUID, e.g. \"550e8400-e29b-41d4-a716-446655440000\"."
+        }
+      },
+      "required": [
+        "uuid"
+      ]
+    }
+  },
+  {
+    "name": "generate_uuid",
+    "description": "Generate one or more random v4 UUIDs.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "number",
+          "description": "How many to generate (1-100, default 1)."
+        }
+      }
+    }
+  }
+]
