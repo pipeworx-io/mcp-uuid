@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-uuid",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "UUID validation & generation MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "uuid",
     "gatewaySlug": "uuid",
-    "sourceHash": "v1-f5995e2c012bd747a30587e1ff45dc60bb239dac7af216f3790c30e102e19f3c",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-ac307ba2fde55033174382b9e882ab0aeb3155a42cbb29dec731d355f6f8d00b",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
